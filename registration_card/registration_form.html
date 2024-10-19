@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resigtration Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!--Card Start-->
+        <div class="card">
+            <h2 class = "form_title">Registration</h2>
+            <form action="">
+                <div class="form_group">
+                    <div class="form_control">
+                        <label for="full_name">Full Name</label>
+                        <input type="text"  id="full_name" name="full_name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="username" >Username</label>
+                        <input type="text" class="align" id="username" name="username" placeholder="Enter your username" required>
+                    </div>
+                </div> 
+    
+                <div class="form_group">
+                    <div class="form_control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="phone" >Phone Number</label>
+                        <input type="tel" class="align" id="phone" name="phone" placeholder="Enter your number" required>
+                    </div>
+                </div> 
+                <div class="form_group">
+                    <div class="form_control">
+                        <label for="password">Password</label>
+                        <input type="password"  id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" class="align" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+                    </div>
+                </div>
+                <div class="gender_group">
+					<label><span>Gender:</span></label>
+					<label><input type="radio" name="gender" value="male" required> Male</label>
+					<label><input type="radio" name="gender" value="female" required> Female</label>
+					<label><input type="radio" name="gender" value="other" required> Other</label>
+				</div>
+                <div class="btn_group">
+                    <button type="cancel" class="btn btn_cancel">Cancel</button>
+                    <button type="submit" class="btn btn_submit">Submit</button>
+                </div>
+                </div>
+                
+            </form>
+        </div> <!-- Card End-->
+    </div>
+</body>
+</html>
